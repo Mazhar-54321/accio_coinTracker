@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Search Bar UI</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="main-container">
+    <div class="search-bar">
+      <div class="input-wrapper">
+        <input onkeyup="onSearch()" id="search" name="search" class="search-input" placeholder=" " />
+        <label class="search-label" for="search">Search by Name or Symbol</label>
+      </div>
+      <button onclick="sortByVolume()" class="search-btn">Sort By Volume</button>
+      <button onclick="sortByPrice()" class="search-btn">Sort By Price</button>
+    </div>
+    <div class="data-section">
+        
+    </div>
+  </div>
+  <script src="script.js"></script>
+  </body>
